@@ -1,0 +1,28 @@
+<body>
+  <ion-header [translucent]="true">
+    <ion-toolbar color="white">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"
+          text="back"
+           style="color: black;"></ion-back-button>
+      </ion-buttons>
+      <ion-title style="color: black;">Escaner QR</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  
+  <ion-content>
+    <img src="assets/Logo.jpg" style="margin-top: 1cm; margin-bottom: 1cm;">
+    <div class="boton">
+      <ion-button (click)="Permisos()" class="ion-activatable ripple-parent circle"  style="margin-left:95px;" expand="block" fill="clear" shape="round">
+        +
+      </ion-button>
+    </div>
+  
+    <ion-text>
+      <h5 style=" color: black; text-align: center; font-family: cursive; margin-top: 2cm;">Pulse para activar la camara</h5>
+    </ion-text>
+  
+  </ion-content>
+
+</body>
